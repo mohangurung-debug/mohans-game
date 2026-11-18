@@ -31,7 +31,7 @@
 ......fffbbddddbccddbccc........
 .........fffbbc333bb333c........
 ...........fff3cc33cc33c........
-`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="uSR3%H;%~,tB:B3G[ZX!"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundimage" id="rWApk:|(wGoP*HKtE;y#"><value name="img"><shadow type="background_image_picker" id="7_v|g-SnvgbRnRLH*}Al"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="uSR3%H;%~,tB:B3G[ZX!"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="MOa7Gdbq)bm`i+1lao.A"><field name="property">Sprite.vx@set</field><value name="mySprite"><block type="variables_get" id="Ev-J!CF[J717*rT`^%Vd"><field name="VAR" id="FKZ(h7Y[EsRSM$C+_on*">mySprite</field></block></value><value name="value"><shadow type="math_number" id="V{4XJr]pb1`Q:2Xot^KH"><field name="NUM">30</field></shadow></value><next><block type="gamesetbackgroundimage" id="rWApk:|(wGoP*HKtE;y#"><value name="img"><shadow type="background_image_picker" id="7_v|g-SnvgbRnRLH*}Al"><field name="img">img`
 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
@@ -152,4 +152,4 @@ a31111111111111111111111aaaa1111111113a3a31111111111111111111111aaaa1111111113a3
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>

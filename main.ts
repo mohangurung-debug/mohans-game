@@ -12,6 +12,8 @@ controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
         animation.setAction(mySprite, ActionKind.Walking)
     }
 })
+let Projectile2: Sprite = null
+let projectile: Sprite = null
 let BottomT: Image = null
 let ImageT: Image = null
 let Gap = 0
@@ -163,7 +165,7 @@ mySprite = sprites.create(img`
     . . . f f f f f f f f f . . . . 
     `, SpriteKind.Player)
 mySprite.setStayInScreen(true)
-let anim = animation.createAnimation(ActionKind.Walking, 25)
+let anim = animation.createAnimation(ActionKind.Walking, 45)
 anim.addAnimationFrame(img`
     . . . . . . . f f f f f . . . . 
     . . . . . . f e e e e e f . . . 
@@ -560,4 +562,8 @@ game.onUpdateInterval(1500, function () {
             ......ee6eeeeee6eef.....
             `
     }
+    projectile = sprites.createProjectileFromSide(ImageT, -50, 0)
+    projectile.setPosition(151, 11)
+    Projectile2 = sprites.createProjectileFromSide(BottomT, -50, 0)
+    Projectile2.setPosition(projectile.x, 94)
 })

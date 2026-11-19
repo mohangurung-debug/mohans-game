@@ -278,6 +278,14 @@ anim.addAnimationFrame(img`
     . . . f f f f f f f f f . . . . 
     `)
 animation.attachAnimation(mySprite, anim)
+game.onUpdate(function () {
+    if (mySprite.vy > 0) {
+        animation.setAction(mySprite, ActionKind.Walking)
+    }
+    if (mySprite.bottom > 120 || mySprite.top < 0) {
+        game.gameOver(false)
+    }
+})
 game.onUpdateInterval(1500, function () {
     Gap = randint(0, 3)
     if (Gap == 0) {
